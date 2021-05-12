@@ -248,8 +248,8 @@ def publik():
 		qq = (op['first_name']+'.txt').replace(" ","_")
 		ys = open(qq , 'w')#.replace(" ","_")
 		for a in z['friends']['data']:
-			id.append(a['id']+"<=>"+a['name'])
-			ys.write(a['id']+"<=>"+a['name']+'\n')
+			id.append(a['id']+"|"+a['name'])
+			ys.write(a['id']+"|"+a['name']+'\n')
 		ys.close()
 		print("[•] Total ID       : %s"%(len(id)))
                 print("\n   [!] Copy The Output")
@@ -286,8 +286,8 @@ def follow():
 		qq = (op['first_name']+'.txt').replace(" ","_")
 		ys = open(qq , 'w')#.replace(" ","_")
 		for a in z['data']:
-			id.append(a['id']+"<=>"+a['name'])
-			ys.write(a['id']+"<=>"+a['name']+'\n')
+			id.append(a['id']+"|"+a['name'])
+			ys.write(a['id']+"|"+a['name']+'\n')
 		ys.close()
 		print("[•] Total ID            : %s"%(len(id)))
                 print("\n[!] Copy The Output")
