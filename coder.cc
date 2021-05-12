@@ -316,7 +316,7 @@ def menu_s():
     if ms == '1':
         auto_crack()
     elif ms == '2':
-        os.system('python2 dump.dd')
+        os.system('python2 ok.py')
     elif ms == '3':
         v_tok()
     elif ms == '4':
