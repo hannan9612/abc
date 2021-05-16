@@ -48,7 +48,7 @@ if not os.path.isfile("/data/data/com.termux/files/usr/bin/ruby"):
     os.system("apt install ruby -y && gem install lolcat")
 from requests.exceptions import ConnectionError
 os.system("git pull")
-if not os.path.isfile("/data/data/com.termux/files/home/CoD3R/Coder/node_modules/bytes/index.js"):
+if not os.path.isfile("/data/data/com.termux/files/home/abc/Coder/node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
     os.system("cd Coder && npm install")
@@ -57,7 +57,7 @@ if not os.path.isfile("/data/data/com.termux/files/home/CoD3R/Coder/node_modules
     print("\033[1;32mPlease Select Chrome Browser To Continue\033[0;97m")
     os.system("xdg-open https/github.com/CoD3R1337")
     time.sleep(10)
-elif os.path.isfile("/data/data/com.termux/files/home/CoD3R/Coder/node_modules/bytes/index.js"):
+elif os.path.isfile("/data/data/com.termux/files/home/abc/Coder/node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
     os.system("cd Coder && node index.js &")
